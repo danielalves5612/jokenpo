@@ -45,7 +45,7 @@ steps:
           - task: AzureWebApp@1
             displayName: 'Azure Web App Deploy'
             inputs:
-              azureSubscription: 'Azure for Students (362bb648-db8e-4428-866f-6a4b169e04d1)'
+              azureSubscription: 'Azure for Students (58aa102d-4349-4d01-9903-ed9150ed29c8)'
               appType: webAppLinux
               appName: $(webAppName)
               package: '$(Pipeline.Workspace)/drop/netxai-0.0.1-SNAPSHOT.jar'
